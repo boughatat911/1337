@@ -1,9 +1,0 @@
-{
-	"files.associations": {
-		"string.h": "c",
-		"random": "c",
-		"stdio.h": "c",
-		"unistd.h": "c",
-		"libft.h": "c"
-	}
-}
