@@ -1,6 +1,7 @@
 #ifndef LIBFT_H
 # define LIBIFT_H
 # include <stdio.h>
+#include <stdlib.h>
 # include <unistd.h>
 
 int	ft_atoi(const char *nptr);
