@@ -22,6 +22,8 @@ int ft_strncmp(const char *s1, const char *s2, size_t n);
 char	*ft_strstr(char *haystack, char *needle, size_t len);
 int ft_tolower(int c);
 int ft_toupper(int c);
+void *ft_calloc(size_t nmemb, size_t size);
+char *ft_strdup(const char *s);
 
 
 #endif
