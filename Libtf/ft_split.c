@@ -1,4 +1,7 @@
 #include "libft.h"
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
 
 char *ft_substr(char const *s, unsigned int start, size_t len)
 {
@@ -22,4 +25,8 @@ char *ft_substr(char const *s, unsigned int start, size_t len)
         str[x++] = s[c++];
     str[x] = '\0';
     return (str);
+}
+char **ft_split(char const *s, char c)
+{
+
 }
